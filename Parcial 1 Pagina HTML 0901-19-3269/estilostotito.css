@@ -1,0 +1,82 @@
+body{
+    background-color: #3b85b3;
+}
+h1{
+    text-align: center;
+    background-color: #383d40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;    
+}
+section#principal{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+article#comandos{
+    display: inline-block;
+    border: 3px solid lightseagreen;
+    min-height: 300px;
+    vertical-align: top;
+    width: 30%;
+    margin: 1em;
+    background-color: lightcyan;
+}
+article#comandos h2{
+    font-family: Showcard Gothic;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: lightseagreen;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1.8em;
+}
+article#comandos h4{
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: lightseagreen;
+    font-size: 1.3em;
+}
+article#tablero{
+    border: 3px solid lightseagreen;
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+    width: 40%;
+    background-color: lightcyan;
+}
+article#tablero input{
+    font-size: 3em;
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+    color: white;
+}
+input[type="button"]#iniciar{
+    font-size: 0.8em;
+    margin: 2em 0;
+    padding: 0.7em;
+    background-color: lightblue;
+    color: darkblue;
+}
+input[type="text"]{
+    font-weight:  bold;
+    font-size: 1em;
+    margin: 0.3em;
+    padding: 0.1em;
+    background-color: whitesmoke;
+    color: black;
+}
+.botonInicial{
+    color: #77d;
+    background-color: #77d;
+}
+.botonJugador1{
+    color: #fff;
+    background-color: #d77;
+}
+.botonJugador2{
+    color: #fff;
+    background-color: #7d7;
+}
