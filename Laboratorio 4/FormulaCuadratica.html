@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="fomulacuadratica.js"></script>
+    <title>Formula cuadrática</title>
+</head>
+<body>
+    <h1>Formula cuadrática</h1>
+    <p>Ingrese los valores de la formula</p>
+    <form>
+        <label for="a"> Valor de A </label>
+        <input type="number" name="a">
+        <br>
+        <label for="b"> Valor de B </label>
+        <input type="number" name="b">
+        <br>
+        <label for="c"> Valor de C </label>
+        <input type="number" name="c">
+        <br><br>
+        <input type="button" value="Calcular" onclick="calcular(this)">
+        <input type="button" value="Borrar" onclick="borrar(this)">
+    </form>
+    <hr>
+    <p>Los resultados son</p>    
+    <h3 id="resultado"></h3>
+    <hr>
+</body>
+</html>
