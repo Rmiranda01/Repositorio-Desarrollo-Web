@@ -1,0 +1,70 @@
+* {
+  transition: all 0.25s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(22, 206, 144, 0.966);;
+}
+
+#contenedor-calculadora {
+  background-color: rgba(13, 19, 107, 0.89);
+  box-shadow: inset 5px 5px 1px rgb(12, 121, 194),
+    inset -5px -5px 2px rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#operacion {
+  background-color: rgb(139, 192, 139);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 150%;
+  height: 50px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.esp {
+  background-color: rgba(243, 247, 16, 0.993);
+}
+
+.num {
+  background-color: rgb(14, 206, 212);
+}
+
+.op {
+  background-color: rgb(252, 178, 42);
+}
+
+.eq {
+  background-color: rgb(84, 252, 42);
+}
+
+input[type="button"] {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0;
+  margin: 3px;
+  box-shadow: inset 3px 3px 1px rgba(255, 255, 255, 0.3),
+    inset -3px -3px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  box-shadow: inset 3px 3px 1px rgba(255, 255, 255, 0.3);
+}
+
+input[type="button"]:active {
+  box-shadow: none;
+}
+
